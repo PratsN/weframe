@@ -1,0 +1,181 @@
+.banner {
+    position: absolute;
+    width: 1532.48px;
+    height: 130px;
+    left: -5.6px;
+    top: 0px;
+    background: url("../Images/Rectangle\ 30.png"), #D9D9D9;
+    mix-blend-mode: hard-light;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 15px;
+    
+    position: absolute;
+    width: 303.42px;
+    height: 55.42px;
+    left: 1159px;
+    top: 23.39px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+
+
+.sales-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+    gap: 18px;
+
+    position: absolute;
+    width: 576px;
+    height: 60.42px;
+    left: 338.64px;
+    top: 23.39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.sales-text {
+    width: 98px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    /* Black */
+    color: #1B1B1B;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.sales-text-mobile {
+    left: 20px;
+    top : 50px;
+    width: 98px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* identical to box height */
+    /* Black */
+    color: #1B1B1B;
+ 
+}
+
+.sales-paid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 102px;
+    height: 54px;
+    background: #48C446;
+    border-radius: 5px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sales-pending {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 128px;
+    height: 54px;
+    /* Lines */
+    background: #BDBDBD;
+    border-radius: 5px;
+    /* Inside auto layout */
+}
+
+.sales-overdue {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: 189px;
+    height: 54px;  
+    background: #EC615B;
+    border-radius: 5px;    
+    /* Inside auto layout */
+ 
+}
+
+.sales-title {
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+    padding-left: 8px;
+    padding-top: 8px;
+    text-transform: uppercase;
+
+    /* BG */
+
+    color: #F9F9FB;
+
+}
+
+.sales-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+    padding-left: 8px;
+
+    /* White */
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 400px) {
+    .user-info{
+    height: 50.42px;
+    left: 20px;
+    top: 20px;
+    }
+    .sales-info{
+     
+        left: 15px;
+        top: 150.39px;
+        gap:2px;
+        width: 340px;
+      
+    }
+
+    .sales-text {
+      display: none;
+    }
+    .sales-paid {
+        width:80px ;
+    }
+    .sales-pending {
+        width: 100px;
+    }
+    .sales-overdue {
+        width:152px ;
+    }
+    }

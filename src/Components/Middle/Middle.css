@@ -1,0 +1,165 @@
+.middle-heading {
+    position: absolute;
+    width: 426px;
+    height: 49px;
+    left: 338.64px;
+    top: 200.88px;
+}
+
+.middle-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 101.2%;
+    color: #000000;
+}
+
+.invoice-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 41px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 262px;
+    height: 63px;
+    left: 1127.03px;
+    top: 229.88px;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */       
+    color: #FFFFFF;
+
+
+}
+
+.invoice-table {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 33px 20px;
+    gap: 42px;
+    width: 1100px;
+    height: 168px;
+    left : 300px;
+    top:280px;
+    border-radius: 10px;
+}
+
+
+.invoice-text {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+.invoice-table-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+    gap: 42px;
+
+    width: 328px;
+    height: 130px;
+
+    background: #F9F9FB;
+    border-radius: 10px;
+}
+
+.invoice-table-item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+  color: #000000;
+  text-transform: lowercase;
+
+}
+
+@media (max-width: 400px) {
+    .middle-heading {
+        position: absolute;
+        width: 20px;
+        height: 40px;
+        left: 20.64px;
+        top: 250.88px;
+    }
+    
+    .middle-text {
+
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 101.2%;
+        color: #000000;
+    }
+
+    .invoice-button{
+        padding: 0px;
+        gap: 0px;
+        
+        position: absolute;
+        width: 150px;
+        height: 63px;
+        left: 200.03px;
+        top: 250.88px;
+        cursor: pointer;
+        background: #000000;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height */       
+        color: #FFFFFF;
+    
+    }
+
+    .invoice-table{
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px;
+        gap: 0px;
+        width: 1100px;
+        height: 158px;
+        left : 10px;
+        top:420px;
+        border-radius: 5px;
+    }
+    .invoice-table-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        gap: 0px;
+        width: 300px;
+        height: 70px;
+        background: #F9F9FB;
+        border-radius: 10px;
+    }
+
+    .invoice-table-item-text {
+
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+
+    
+    }
+    
+
+ }

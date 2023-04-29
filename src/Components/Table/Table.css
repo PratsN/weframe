@@ -1,0 +1,131 @@
+.main-table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    position: absolute;
+    width: 1049px;
+    height: 641px;
+    left: 341px;
+    top: 500.17px;
+}
+
+.table-heading {
+
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.table-search {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 437px;
+    height: 53px;
+
+}
+
+.table-serach-bar {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+width: 274px;
+height: 53px;
+}
+
+.table-search-bar-main {
+    border: none;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 20px;
+gap: 52px;
+
+width: 235px;
+height: 53px;
+
+/* Lines */
+
+background: #F1F1F1;
+border-radius: 5px;
+
+
+}
+
+.searchbar-placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #979797;
+}
+
+.table-search-button {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+color: white;
+gap: 10px;
+cursor: pointer;
+width: 155px;
+height: 53px;
+
+background: #000000;
+border-radius: 5px;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+
+}
+
+@media (max-width: 400px) {
+    .main-table {
+        width: 1049px;
+        height: 641px;
+        left: 20px;
+        top: 680.17px;
+    }
+
+    .table-heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        }
+
+    .table-serach-bar {
+        width: 220px;
+        height: 53px;      
+        }
+        .table-search-bar-main {       
+        padding: 8px 10px;
+        gap: 0px;       
+        width: 200px;
+        height: 53px; 
+        }
+
+        .table-search-button {
+
+        width: 100px;
+        height: 53px;
+   
+        }
+
+    
+
+}
